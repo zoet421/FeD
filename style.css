@@ -1,0 +1,49 @@
+/**************/
+/* CSS REMEDY */
+/**************/
+*, *::after, *::before {
+  box-sizing:border-box;  
+}
+
+
+
+
+
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+	/* startje */
+	--color-text:#111;
+	--color-background:#eee;
+}
+
+
+
+
+
+/****************/
+/* JOUW STYLING */
+/****************/
+
+/* jouw code */
+
+
+
+header img {
+	max-width: 375px;
+}
+
+#slide {
+	display: flex;
+	overflow: auto;
+
+	background-color: blue;
+}
+
+#slide li {
+		flex-shrink: 0;
+
+
+}
